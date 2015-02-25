@@ -1,0 +1,80 @@
+Sender: LSF System <lsfadmin@lxbrl2917>
+Subject: Job 517654470: <test_gDiJet_fDiJet_m350_w0_cat0_winSize10_j48_nSig_FIX> in cluster batch Done
+
+Job <test_gDiJet_fDiJet_m350_w0_cat0_winSize10_j48_nSig_FIX> was submitted from host <lxplus411> by user <soffi> in cluster <batch>.
+Job was executed on host(s) <lxbrl2917>, in queue <8nh>, as user <soffi> in cluster <batch>.
+</afs/cern.ch/user/s/soffi> was used as the home directory.
+</afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy> was used as the working directory.
+Started at Fri Apr  4 20:42:03 2014
+Results reported at Fri Apr  4 20:42:54 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/script/TestFit_win.sh 20 48 350 0 10 DiJet DiJet 0 0  0 FIX
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :     24.42 sec.
+    Max Memory :       115 MB
+    Max Swap   :       299 MB
+
+    Max Processes  :         7
+    Max Threads    :         8
+
+The output (if any) follows:
+
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/soffi/517654470> on <lxbrl2917.cern.ch>
+
+FIX
+0
+ ***** gDiJet_fDiJet_m350_w0_cat0_nSig0_j48_FIX ********* 
+Running in directory /pool/lsf/soffi/517654470 on Linux lxbrl2917.cern.ch 2.6.18-371.4.1.el5 #1 SMP Thu Jan 30 13:11:18 CET 2014 x86_64 x86_64 x86_64 GNU/Linux
+Error 3011: Unable to create new file; file already exists.
+
+The command returned an error.
+
+rm: cannot remove `SWplots/*png': No such file or directory
+rm: cannot remove `SWplots/toys/*png': No such file or directory
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/script/TestFit_win.sh: line 88: : command not found
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/build/TestSW_wind.exe -t 20 -p 1 -nJ 1 -j 48 -mass 350 -width 0 -cat 0 -pG -gen DiJet -fit DiJet  -f_fit /afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudyworkspaces/HighMass-hgg.m350.0_w0_inputBias_truth_8TeV_FIX.root -f_gen /afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/workspaces/HighMass-hgg.m350.0_w0_inputBias_truth_8TeV_FIX.root -sigGen -nGen 0 -w 10 -su FIX
+Warning in <TFile::Append>: Replacing existing TH1: PhotonsMassBkg_DiJet_truth_cat0__PhotonsMass (Potential memory leak).
+Info in <TCanvas::SaveSource>: C++ Macro file: SWplots/test_fitDiJet_m350_w0_cat0_toy0_FIX.C has been generated
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+gDiJet_fDiJet_m350_w0_cat0_nSig0_j48_FIX done
+test_fitDiJet_m350_w0_cat0_toy0_FIX.png
+test_fitDiJet_m350_w0_cat0_toy0_FIX_LOG.png
+test_fitSandBDiJet_m350_w0_cat0_toy0_FIX.png
+test_fitSandBDiJet_m350_w0_cat0_toy0_FIX_LOG.png
+test_genDiJet_m350_w0_cat0_toy0_FIX.png
+test_genDiJet_m350_w0_cat0_toy0_FIX_LOG.png
+test_genSig_m350_w0_cat0_toy0_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fDiJet_m350_w0_cat0_w10_toy960_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fDiJet_m350_w0_cat0_w10_toy960_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fDiJet_m350_w0_cat0_w10_toy965_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fDiJet_m350_w0_cat0_w10_toy965_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fDiJet_m350_w0_cat0_w10_toy970_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fDiJet_m350_w0_cat0_w10_toy970_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fDiJet_m350_w0_cat0_w10_toy975_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fDiJet_m350_w0_cat0_w10_toy975_FIX_LOG.png
+Error 3011: No servers are available to write the file.
+
+The command returned an error.
+
+gDiJet_fDiJet_m350_w0_cat0_nSig0_j48_FIX copy done
+
+Job finished at Fri Apr  4 20:42:49 CEST 2014 on node 
+ under linux version Scientific Linux CERN SLC release 5.10 (Boron)
+
+CERN statistics: This process used approximately : 0:00:53 KSI2K hours (53 KSI2K seconds)
+                 This process corresponds to     : 0:03:28 HS06  hours (208 HS06  seconds)

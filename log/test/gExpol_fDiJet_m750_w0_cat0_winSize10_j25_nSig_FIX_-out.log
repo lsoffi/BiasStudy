@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@b5771b22af.cern.ch>
+Subject: Job 517653102: <test_gExpol_fDiJet_m750_w0_cat0_winSize10_j25_nSig_FIX> in cluster batch Exited
+
+Job <test_gExpol_fDiJet_m750_w0_cat0_winSize10_j25_nSig_FIX> was submitted from host <lxplus411> by user <soffi> in cluster <batch>.
+Job was executed on host(s) <b5771b22af.cern.ch>, in queue <8nh>, as user <soffi> in cluster <batch>.
+</afs/cern.ch/user/s/soffi> was used as the home directory.
+</afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy> was used as the working directory.
+Started at Fri Apr  4 20:23:13 2014
+Results reported at Fri Apr  4 21:15:44 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/script/TestFit_win.sh 20 25 750 0 10 Expol DiJet 0 0  0 FIX
+
+------------------------------------------------------------
+
+Exited with exit code 29.
+
+Resource usage summary:
+
+    CPU time   :    156.86 sec.
+    Max Memory :        17 MB
+    Max Swap   :       105 MB
+
+    Max Processes  :         5
+    Max Threads    :         6
+
+The output (if any) follows:
+
+No such user: ????
+id: cannot find name for user ID 57603
+id: cannot find name for group ID 1399
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+No AFS token

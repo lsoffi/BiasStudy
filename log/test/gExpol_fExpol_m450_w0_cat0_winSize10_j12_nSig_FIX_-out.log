@@ -1,0 +1,79 @@
+Sender: LSF System <lsfadmin@lxbrg4801.cern.ch>
+Subject: Job 517652171: <test_gExpol_fExpol_m450_w0_cat0_winSize10_j12_nSig_FIX> in cluster batch Done
+
+Job <test_gExpol_fExpol_m450_w0_cat0_winSize10_j12_nSig_FIX> was submitted from host <lxplus411> by user <soffi> in cluster <batch>.
+Job was executed on host(s) <lxbrg4801.cern.ch>, in queue <8nh>, as user <soffi> in cluster <batch>.
+</afs/cern.ch/user/s/soffi> was used as the home directory.
+</afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy> was used as the working directory.
+Started at Fri Apr  4 20:09:05 2014
+Results reported at Fri Apr  4 20:09:49 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/script/TestFit_win.sh 20 12 450 0 10 Expol Expol 0 0  0 FIX
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :     21.88 sec.
+    Max Memory :       121 MB
+    Max Swap   :       307 MB
+
+    Max Processes  :         7
+    Max Threads    :         8
+
+The output (if any) follows:
+
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/soffi/517652171> on <lxbrg4801.cern.ch>
+
+FIX
+0
+ ***** gExpol_fExpol_m450_w0_cat0_nSig0_j12_FIX ********* 
+Running in directory /pool/lsf/soffi/517652171 on Linux lxbrg4801.cern.ch 2.6.18-371.1.2.el5 #1 SMP Wed Oct 23 09:43:01 CEST 2013 x86_64 x86_64 x86_64 GNU/Linux
+Error 3011: Unable to create new file; file already exists.
+
+The command returned an error.
+
+rm: cannot remove `SWplots/*png': No such file or directory
+rm: cannot remove `SWplots/toys/*png': No such file or directory
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/script/TestFit_win.sh: line 88: : command not found
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/build/TestSW_wind.exe -t 20 -p 1 -nJ 1 -j 12 -mass 450 -width 0 -cat 0 -pG -gen Expol -fit Expol  -f_fit /afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudyworkspaces/HighMass-hgg.m450.0_w0_inputBias_truth_8TeV_FIX.root -f_gen /afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/workspaces/HighMass-hgg.m450.0_w0_inputBias_truth_8TeV_FIX.root -sigGen -nGen 0 -w 10 -su FIX
+Info in <TCanvas::SaveSource>: C++ Macro file: SWplots/test_fitExpol_m450_w0_cat0_toy0_FIX.C has been generated
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+gExpol_fExpol_m450_w0_cat0_nSig0_j12_FIX done
+test_fitExpol_m450_w0_cat0_toy0_FIX.png
+test_fitExpol_m450_w0_cat0_toy0_FIX_LOG.png
+test_fitSandBExpol_m450_w0_cat0_toy0_FIX.png
+test_fitSandBExpol_m450_w0_cat0_toy0_FIX_LOG.png
+test_genExpol_m450_w0_cat0_toy0_FIX.png
+test_genExpol_m450_w0_cat0_toy0_FIX_LOG.png
+test_genSig_m450_w0_cat0_toy0_FIX_LOG.png
+toys/fitTogen-sigGen_0-gExpol_fExpol_m450_w0_cat0_w10_toy240_FIX.png
+toys/fitTogen-sigGen_0-gExpol_fExpol_m450_w0_cat0_w10_toy240_FIX_LOG.png
+toys/fitTogen-sigGen_0-gExpol_fExpol_m450_w0_cat0_w10_toy245_FIX.png
+toys/fitTogen-sigGen_0-gExpol_fExpol_m450_w0_cat0_w10_toy245_FIX_LOG.png
+toys/fitTogen-sigGen_0-gExpol_fExpol_m450_w0_cat0_w10_toy250_FIX.png
+toys/fitTogen-sigGen_0-gExpol_fExpol_m450_w0_cat0_w10_toy250_FIX_LOG.png
+toys/fitTogen-sigGen_0-gExpol_fExpol_m450_w0_cat0_w10_toy255_FIX.png
+toys/fitTogen-sigGen_0-gExpol_fExpol_m450_w0_cat0_w10_toy255_FIX_LOG.png
+Error 3011: No servers are available to write the file.
+
+The command returned an error.
+
+gExpol_fExpol_m450_w0_cat0_nSig0_j12_FIX copy done
+
+Job finished at Fri Apr  4 20:09:48 CEST 2014 on node 
+ under linux version Scientific Linux CERN SLC release 5.10 (Boron)
+
+CERN statistics: This process used approximately : 0:00:51 KSI2K hours (51 KSI2K seconds)
+                 This process corresponds to     : 0:03:21 HS06  hours (201 HS06  seconds)

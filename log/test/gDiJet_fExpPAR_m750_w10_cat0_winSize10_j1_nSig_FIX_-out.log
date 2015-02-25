@@ -1,0 +1,506 @@
+Sender: LSF System <lsfadmin@b5dd1871b9.cern.ch>
+Subject: Job 535614106: <test_gDiJet_fExpPAR_m750_w10_cat0_winSize10_j1_nSig_FIX> in cluster batch Done
+
+Job <test_gDiJet_fExpPAR_m750_w10_cat0_winSize10_j1_nSig_FIX> was submitted from host <lxplus415> by user <soffi> in cluster <batch>.
+Job was executed on host(s) <b5dd1871b9.cern.ch>, in queue <8nh>, as user <soffi> in cluster <batch>.
+</afs/cern.ch/user/s/soffi> was used as the home directory.
+</afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy> was used as the working directory.
+Started at Mon Jun  9 13:19:31 2014
+Results reported at Mon Jun  9 13:35:04 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/script/TestFit_win.sh 20 1 750 0 10 DiJet ExpPAR 0 10  0 FIX
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :    533.68 sec.
+    Max Memory :       126 MB
+    Max Swap   :       328 MB
+
+    Max Processes  :         9
+    Max Threads    :        12
+
+The output (if any) follows:
+
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/soffi/535614106> on <b5dd1871b9.cern.ch>
+
+FIX
+10
+ ***** gDiJet_fExpPAR_m750_w10_cat0_nSig0_j1_FIX ********* 
+Running in directory /pool/lsf/soffi/535614106 on Linux b5dd1871b9.cern.ch 2.6.18-371.el5 #1 SMP Tue Oct 1 16:36:05 CEST 2013 x86_64 x86_64 x86_64 GNU/Linux
+Error 3011: Unable to create new file; file already exists.
+
+The command returned an error.
+
+rm: cannot remove `SWplots/*png': No such file or directory
+rm: cannot remove `SWplots/toys/*png': No such file or directory
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/script/TestFit_win.sh: line 88: : command not found
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/build/TestSW_wind.exe -t 20 -p 1 -nJ 1 -j 1 -mass 750 -width 10 -cat 0 -pG -gen DiJet -fit ExpPAR  -f_fit /afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudyworkspaces/HighMass-hgg.m750.0_w10_inputBias_truth_8TeV_FIX.root -f_gen /afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/workspaces/HighMass-hgg.m750.0_w10_inputBias_truth_8TeV_FIX.root -sigGen -nGen 0 -w 10 -su FIX
+Warning in <TFile::Append>: Replacing existing TH1: PhotonsMassBkg_DiJet_truth_cat0__PhotonsMass (Potential memory leak).
+Info in <TCanvas::SaveSource>: C++ Macro file: SWplots/test_fitExpPAR_m750_w10_cat0_toy0_FIX.C has been generated
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+gDiJet_fExpPAR_m750_w10_cat0_nSig0_j1_FIX done
+test_fitExpPAR_m750_w10_cat0_toy0_FIX.png
+test_fitExpPAR_m750_w10_cat0_toy0_FIX_LOG.png
+test_fitSandBExpPAR_m750_w10_cat0_toy0_FIX.png
+test_fitSandBExpPAR_m750_w10_cat0_toy0_FIX_LOG.png
+test_genDiJet_m750_w10_cat0_toy0_FIX.png
+test_genDiJet_m750_w10_cat0_toy0_FIX_LOG.png
+test_genSig_m750_w10_cat0_toy0_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy20_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy20_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy21_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy21_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy22_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy22_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy23_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy23_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy24_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy24_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy25_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy25_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy26_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy26_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy27_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy27_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy28_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy28_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy29_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy29_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy30_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy30_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy31_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy31_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy32_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy32_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy33_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy33_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy34_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy34_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy35_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy35_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy36_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy36_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy37_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy37_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy38_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy38_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy39_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy39_FIX_LOG.png
+Error 3011: No servers are available to write the file.
+
+The command returned an error.
+
+gDiJet_fExpPAR_m750_w10_cat0_nSig0_j1_FIX copy done
+
+Job finished at Mon Jun  9 13:30:56 CEST 2014 on node 
+ under linux version Scientific Linux CERN SLC release 5.10 (Boron)
+
+CERN statistics: This process used approximately : 0:01:07 KSI2K hours (67 KSI2K seconds)
+                 This process corresponds to     : 0:04:24 HS06  hours (264 HS06  seconds)
+Sender: LSF System <lsfadmin@lxbrg3003.cern.ch>
+Subject: Job 535706860: <test_gDiJet_fExpPAR_m750_w10_cat0_winSize10_j1_nSig_FIX> in cluster batch Done
+
+Job <test_gDiJet_fExpPAR_m750_w10_cat0_winSize10_j1_nSig_FIX> was submitted from host <lxplus415> by user <soffi> in cluster <batch>.
+Job was executed on host(s) <lxbrg3003.cern.ch>, in queue <8nh>, as user <soffi> in cluster <batch>.
+</afs/cern.ch/user/s/soffi> was used as the home directory.
+</afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy> was used as the working directory.
+Started at Mon Jun  9 21:18:06 2014
+Results reported at Mon Jun  9 21:18:58 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/script/TestFit_win.sh 20 1 750 0 10 DiJet ExpPAR 0 10  0 FIX
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :     16.82 sec.
+    Max Memory :        66 MB
+    Max Swap   :       241 MB
+
+    Max Processes  :         7
+    Max Threads    :         8
+
+The output (if any) follows:
+
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/soffi/535706860> on <lxbrg3003.cern.ch>
+
+FIX
+10
+ ***** gDiJet_fExpPAR_m750_w10_cat0_nSig0_j1_FIX ********* 
+Running in directory /pool/lsf/soffi/535706860 on Linux lxbrg3003.cern.ch 2.6.18-371.3.1.el5 #1 SMP Fri Dec 6 08:34:45 CET 2013 x86_64 x86_64 x86_64 GNU/Linux
+Error 3011: Unable to create new file; file already exists.
+
+The command returned an error.
+
+rm: cannot remove `SWplots/*png': No such file or directory
+rm: cannot remove `SWplots/toys/*png': No such file or directory
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/script/TestFit_win.sh: line 88: : command not found
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/build/TestSW_wind.exe -t 20 -p 1 -nJ 1 -j 1 -mass 750 -width 10 -cat 0 -pG -gen DiJet -fit ExpPAR  -f_fit /afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudyworkspaces/HighMass-hgg.m750.0_w10_inputBias_truth_8TeV_FIX.root -f_gen /afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/workspaces/HighMass-hgg.m750.0_w10_inputBias_truth_8TeV_FIX.root -sigGen -nGen 0 -w 10 -su FIX
+Warning in <TFile::Append>: Replacing existing TH1: PhotonsMassBkg_DiJet_truth_cat0__PhotonsMass (Potential memory leak).
+Info in <TCanvas::SaveSource>: C++ Macro file: SWplots/test_fitExpPAR_m750_w10_cat0_toy0_FIX.C has been generated
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+gDiJet_fExpPAR_m750_w10_cat0_nSig0_j1_FIX done
+test_fitExpPAR_m750_w10_cat0_toy0_FIX.png
+test_fitExpPAR_m750_w10_cat0_toy0_FIX_LOG.png
+test_fitSandBExpPAR_m750_w10_cat0_toy0_FIX.png
+test_fitSandBExpPAR_m750_w10_cat0_toy0_FIX_LOG.png
+test_genDiJet_m750_w10_cat0_toy0_FIX.png
+test_genDiJet_m750_w10_cat0_toy0_FIX_LOG.png
+test_genSig_m750_w10_cat0_toy0_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy20_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy20_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy21_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy21_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy22_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy22_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy23_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy23_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy24_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy24_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy25_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy25_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy26_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy26_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy27_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy27_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy28_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy28_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy29_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy29_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy30_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy30_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy31_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy31_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy32_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy32_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy33_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy33_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy34_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy34_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy35_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy35_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy36_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy36_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy37_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy37_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy38_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy38_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy39_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy39_FIX_LOG.png
+Error 3011: No servers are available to write the file.
+
+The command returned an error.
+
+gDiJet_fExpPAR_m750_w10_cat0_nSig0_j1_FIX copy done
+
+Job finished at Mon Jun  9 21:18:56 CEST 2014 on node 
+ under linux version Scientific Linux CERN SLC release 5.10 (Boron)
+
+CERN statistics: This process used approximately : 0:00:34 KSI2K hours (34 KSI2K seconds)
+                 This process corresponds to     : 0:02:15 HS06  hours (135 HS06  seconds)
+Sender: LSF System <lsfadmin@lxbsq1511>
+Subject: Job 536798310: <test_gDiJet_fExpPAR_m750_w10_cat0_winSize10_j1_nSig_FIX> in cluster batch Done
+
+Job <test_gDiJet_fExpPAR_m750_w10_cat0_winSize10_j1_nSig_FIX> was submitted from host <lxplus415> by user <soffi> in cluster <batch>.
+Job was executed on host(s) <lxbsq1511>, in queue <1nh>, as user <soffi> in cluster <batch>.
+</afs/cern.ch/user/s/soffi> was used as the home directory.
+</afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy> was used as the working directory.
+Started at Sat Jun 14 16:31:13 2014
+Results reported at Sat Jun 14 17:30:55 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/script/TestFit_win.sh 20 1 750 0 10 DiJet ExpPAR 0 10  0 FIX
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :     26.99 sec.
+    Max Memory :        85 MB
+    Max Swap   :       268 MB
+
+    Max Processes  :         7
+    Max Threads    :         9
+
+The output (if any) follows:
+
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/soffi/536798310> on <lxbsq1511.cern.ch>
+
+FIX
+10
+ ***** gDiJet_fExpPAR_m750_w10_cat0_nSig0_j1_FIX ********* 
+Running in directory /pool/lsf/soffi/536798310 on Linux lxbsq1511.cern.ch 2.6.18-371.4.1.el5 #1 SMP Thu Jan 30 13:11:18 CET 2014 x86_64 x86_64 x86_64 GNU/Linux
+Not connected to any server.
+
+rm: cannot remove `SWplots/*png': No such file or directory
+rm: cannot remove `SWplots/toys/*png': No such file or directory
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/script/TestFit_win.sh: line 88: : command not found
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/build/TestSW_wind.exe -t 20 -p 1 -nJ 1 -j 1 -mass 750 -width 10 -cat 0 -pG -gen DiJet -fit ExpPAR  -f_fit /afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudyworkspaces/HighMass-hgg.m750.0_w10_inputBias_truth_8TeV_FIX.root -f_gen /afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/workspaces/HighMass-hgg.m750.0_w10_inputBias_truth_8TeV_FIX.root -sigGen -nGen 0 -w 10 -su FIX
+Error in <RooFormula::Compile>:  Bad numerical expression : "@3"
+Error in <RooFormula::Compile>:  Bad numerical expression : "@3"
+Warning in <TFile::Append>: Replacing existing TH1: PhotonsMassBkg_DiJet_truth_cat0__PhotonsMass (Potential memory leak).
+Info in <TCanvas::SaveSource>: C++ Macro file: SWplots/test_fitExpPAR_m750_w10_cat0_toy0_FIX.C has been generated
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+gDiJet_fExpPAR_m750_w10_cat0_nSig0_j1_FIX done
+test_fitExpPAR_m750_w10_cat0_toy0_FIX.png
+test_fitExpPAR_m750_w10_cat0_toy0_FIX_LOG.png
+test_fitSandBExpPAR_m750_w10_cat0_toy0_FIX.png
+test_fitSandBExpPAR_m750_w10_cat0_toy0_FIX_LOG.png
+test_genDiJet_m750_w10_cat0_toy0_FIX.png
+test_genDiJet_m750_w10_cat0_toy0_FIX_LOG.png
+test_genSig_m750_w10_cat0_toy0_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy20_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy20_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy21_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy21_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy22_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy22_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy23_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy23_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy24_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy24_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy25_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy25_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy26_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy26_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy27_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy27_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy28_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy28_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy29_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy29_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy30_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy30_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy31_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy31_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy32_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy32_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy33_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy33_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy34_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy34_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy35_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy35_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy36_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy36_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy37_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy37_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy38_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy38_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy39_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy39_FIX_LOG.png
+Not connected to any server.
+
+gDiJet_fExpPAR_m750_w10_cat0_nSig0_j1_FIX copy done
+
+Job finished at Sat Jun 14 17:30:53 CEST 2014 on node 
+ under linux version Scientific Linux CERN SLC release 5.10 (Boron)
+
+CERN statistics: This process used approximately : 0:01:20 KSI2K hours (80 KSI2K seconds)
+                 This process corresponds to     : 0:05:13 HS06  hours (313 HS06  seconds)
+Sender: LSF System <lsfadmin@lxbsq1432>
+Subject: Job 539370967: <test_gDiJet_fExpPAR_m750_w10_cat0_winSize10_j1_nSig_FIX> in cluster batch Done
+
+Job <test_gDiJet_fExpPAR_m750_w10_cat0_winSize10_j1_nSig_FIX> was submitted from host <lxplus431> by user <soffi> in cluster <batch>.
+Job was executed on host(s) <lxbsq1432>, in queue <8nh>, as user <soffi> in cluster <batch>.
+</afs/cern.ch/user/s/soffi> was used as the home directory.
+</afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy> was used as the working directory.
+Started at Tue Jun 24 09:45:24 2014
+Results reported at Tue Jun 24 10:20:52 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/script/TestFit_win.sh 20 1 750 0 10 DiJet ExpPAR 0 10  0 FIX
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :     14.03 sec.
+    Max Memory :        91 MB
+    Max Swap   :       287 MB
+
+    Max Processes  :         7
+    Max Threads    :         9
+
+The output (if any) follows:
+
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/soffi/539370967> on <lxbsq1432.cern.ch>
+
+FIX
+10
+ ***** gDiJet_fExpPAR_m750_w10_cat0_nSig0_j1_FIX ********* 
+Running in directory /pool/lsf/soffi/539370967 on Linux lxbsq1432.cern.ch 2.6.18-371.6.1.el5 #1 SMP Thu Mar 13 09:18:14 CET 2014 x86_64 x86_64 x86_64 GNU/Linux
+Not connected to any server.
+
+rm: cannot remove `SWplots/*png': No such file or directory
+rm: cannot remove `SWplots/toys/*png': No such file or directory
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/script/TestFit_win.sh: line 88: : command not found
+/afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/build/TestSW_wind.exe -t 20 -p 1 -nJ 1 -j 1 -mass 750 -width 10 -cat 0 -pG -gen DiJet -fit ExpPAR  -f_fit /afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudyworkspaces/HighMass-hgg.m750.0_w10_inputBias_truth_8TeV_FIX.root -f_gen /afs/cern.ch/work/s/soffi/CMSSW611-Analysis/src/h2gglobe/ChiaraFitLimits/BiasStudy/workspaces/HighMass-hgg.m750.0_w10_inputBias_truth_8TeV_FIX.root -sigGen -nGen 0 -w 10 -su FIX
+Warning in <TFile::Append>: Replacing existing TH1: PhotonsMassBkg_DiJet_truth_cat0__PhotonsMass (Potential memory leak).
+Info in <TCanvas::SaveSource>: C++ Macro file: SWplots/test_fitExpPAR_m750_w10_cat0_toy0_FIX.C has been generated
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+gDiJet_fExpPAR_m750_w10_cat0_nSig0_j1_FIX done
+test_fitExpPAR_m750_w10_cat0_toy0_FIX.png
+test_fitExpPAR_m750_w10_cat0_toy0_FIX_LOG.png
+test_fitSandBExpPAR_m750_w10_cat0_toy0_FIX.png
+test_fitSandBExpPAR_m750_w10_cat0_toy0_FIX_LOG.png
+test_genDiJet_m750_w10_cat0_toy0_FIX.png
+test_genDiJet_m750_w10_cat0_toy0_FIX_LOG.png
+test_genSig_m750_w10_cat0_toy0_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy20_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy20_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy21_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy21_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy22_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy22_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy23_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy23_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy24_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy24_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy25_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy25_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy26_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy26_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy27_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy27_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy28_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy28_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy29_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy29_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy30_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy30_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy31_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy31_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy32_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy32_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy33_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy33_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy34_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy34_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy35_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy35_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy36_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy36_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy37_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy37_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy38_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy38_FIX_LOG.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy39_FIX.png
+toys/fitTogen-sigGen_0-gDiJet_fExpPAR_m750_w10_cat0_w10_toy39_FIX_LOG.png
+Not connected to any server.
+
+gDiJet_fExpPAR_m750_w10_cat0_nSig0_j1_FIX copy done
+
+Job finished at Tue Jun 24 10:20:51 CEST 2014 on node 
+ under linux version Scientific Linux CERN SLC release 5.10 (Boron)
+
+CERN statistics: This process used approximately : 0:00:40 KSI2K hours (40 KSI2K seconds)
+                 This process corresponds to     : 0:02:38 HS06  hours (158 HS06  seconds)
